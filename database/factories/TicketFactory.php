@@ -10,7 +10,7 @@ use Faker\Generator as Faker;
 | model instances for testing / seeding your application's database.
 |
 */
-$factory->define(App\Ticket::class, function (Faker $faker) {
+$factory->define(App\Models\Ticket::class, function (Faker $faker) {
     return [
         'title' => $faker->word,
         'content' => $faker->sentence
